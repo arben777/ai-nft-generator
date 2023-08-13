@@ -15,9 +15,9 @@ import Navigation from "./components/Navigation";
 // import config from "./config.json";
 
 function App() {
-  const [provider, setProvider] = useState(null);
+  // const [provider, setProvider] = useState(null);
   const [account, setAccount] = useState(null);
-  const [nft, setNFT] = useState(null);
+  // const [nft, setNFT] = useState(null);
 
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
