@@ -9,10 +9,10 @@ import Spinner from "react-bootstrap/Spinner";
 import Navigation from "./components/Navigation";
 
 // ABIs
-import NFT from "./abis/NFT.json";
+// import NFT from "./abis/NFT.json";
 
 // Config
-import config from "./config.json";
+// import config from "./config.json";
 
 function App() {
   const [provider, setProvider] = useState(null);
@@ -156,7 +156,7 @@ function App() {
 
         <div className="image">
           {!isWaiting && image ? (
-            <img src={image} alt="AI generated image" />
+            <img src={image} alt="AI generated" />
           ) : isWaiting ? (
             <div className="image__placeholder">
               <Spinner animation="border" />
